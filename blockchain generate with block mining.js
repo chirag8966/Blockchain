@@ -65,3 +65,4 @@ cjcoin.addBlock(new block( 1 , '05-01-2019' , {amount : 4}));
 console.log('mining block 2');
 cjcoin.addBlock(new block( 2 , '10-01-2019' , {amount : 18}));
 
+console.log(JSON.stringify( cjcoin , null , '\t'));
